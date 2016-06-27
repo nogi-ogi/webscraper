@@ -21,8 +21,5 @@ for singleWord in wordlist:
 	data.append(wordClue)
 	sleep(1)
 
-print(data[0])
-print(data[1])
-
 with open('result.json', 'w') as fp:
 	json.dump(data, fp)
